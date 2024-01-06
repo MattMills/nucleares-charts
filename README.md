@@ -13,3 +13,16 @@ This graph shows the damage incurred to fuel and core based on the core external
 This graph shows the power of moderation calculation for the reactor based on the level of steam and water within the reactor core.
 
 ![Power of moderation graph](img/power_of_moderation.png)
+
+## Absorption Factor
+
+This graph shows the Absorption Factor calculation, which is inverted (High absorption = 0.0, low absorption = 1.0) from what you'd expect from control rod insertion.
+
+![Absorption Factor graph](img/absorption_factor.png)
+
+
+## Reactivitiy
+
+This graph shows the fission reactivity per tick, based on the moderation and absorption factor, showing the increase in temperature (based on fresh fuel).
+
+![Reactivity graph](img/reactivity.png)
