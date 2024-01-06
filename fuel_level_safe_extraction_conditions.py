@@ -16,6 +16,7 @@ plt.contourf(X, Y, Z, cmap='jet', vmax=1.0, alpha=0.5, levels=[0, 0.1, 0.2, 0.3,
 
 plt.plot(x, y2, label="Safe level")
 
+plt.colorbar(label='Integrity loss (x100)')
 plt.xlabel('Fuel temperature')
 plt.ylabel('Core Outer Vessel Fill %')
 plt.title('Core and Fuel integrity loss on extraction (10% per level)')
